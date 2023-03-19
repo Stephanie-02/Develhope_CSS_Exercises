@@ -1,5 +1,6 @@
 :root {
     --main-bg-color: #011212;
+    --border: 100px;
 }
 
 body {
@@ -9,6 +10,6 @@ body {
 .ball {
     width: 100px;
     height: 100px;
-    background-color: #ff8800;
-    border-radius: 50px;
+    background-color: var(--main-bg-color);
+    border-radius: calc(var(--border)/2);
 }
