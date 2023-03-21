@@ -1,0 +1,53 @@
+.sidebar{
+    width: 200px;
+    display: flex;
+    height: 100%;
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    overflow: hidden;
+    position: fixed;
+}
+
+.sidenav{
+    flex: 1;
+}
+
+.sidenav a:hover{
+    color: #2b2bb2;
+    transition: 0.3s;
+}
+
+.home{
+    color: #2b2b2b;
+    text-decoration: none;
+    display:block;
+    font-size: 24px;
+}
+
+.news{
+    color: #2b2b2b;
+    text-decoration: none;
+    display:block;
+    font-size: 24px;
+}
+
+.contact{
+    color: #2b2b2b;
+    text-decoration: none;
+    display:block;
+    font-size: 24px;
+}
+
+.about{
+    color: #2b2b2b;
+    text-decoration: none;
+    display:block;
+    font-size: 24px;
+}
+
+#identity{
+    flex: 1;
+    align-self: flex-end;
+}
+
+
