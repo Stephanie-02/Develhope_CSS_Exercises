@@ -1,0 +1,39 @@
+#linking{
+    background-color: rgb(0, 0, 59);
+    display: inline-block;
+}
+
+.navigation{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.home{
+    color: white;
+    text-decoration: none;
+}
+
+.linked{
+    color: rgb(180, 178, 178);
+    text-decoration: none;
+}
+
+#dropdown{
+    color: rgb(180, 178, 178);
+    background-color: rgb(0, 0, 59);
+    text-decoration: none;
+}
+
+.disabled{
+    color: rgb(180, 178, 178);
+    text-decoration: none;
+    background-color: rgb(0, 0, 59);
+}
+
+.submitted{
+     border: 1px solid green;
+     background-color: rgb(0, 0, 59);
+     color: green;
+}
+
