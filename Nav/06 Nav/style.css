@@ -7,16 +7,19 @@
     color: white;
     text-decoration: none;
     font-size: larger;
+    padding: 4px;
 }
 
 .home{
     color: white;
     text-decoration: none;
+    padding: 4px;
 }
 
 .linked{
     color: rgb(180, 178, 178);
     text-decoration: none;
+    padding: 4px;
 }
 
 #dropdown{
@@ -24,6 +27,7 @@
     background-color: rgb(0, 0, 59);
     text-decoration: none;
     border: none;
+    padding: 4px;
 }
 
 .disabled{
@@ -37,5 +41,6 @@
      border: 1px solid green;
      background-color: rgb(0, 0, 59);
      color: green;
+    margin: 2px;
 }
 
