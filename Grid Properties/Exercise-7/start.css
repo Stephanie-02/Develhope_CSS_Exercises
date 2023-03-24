@@ -6,6 +6,7 @@
     "yellow red blue"
     "yellow red blue"
     "orange orange blue";
+    width: 100vw;
 }
 
 #green {
@@ -26,4 +27,14 @@
 
 #orange {
     grid-area: orange;
+}
+
+.yellowing {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.redding {
+    display: grid;
+    grid-template-columns: auto auto;
 }
