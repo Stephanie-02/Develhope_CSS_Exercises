@@ -1,6 +1,5 @@
 .grid-container {
     display: grid;
-    gap: 1rem;
     font-size: 24px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 50px 50px 50px 50px 50px 50px;
@@ -11,8 +10,8 @@
     "itema itemb itemc item9"
     "itemd iteme itemf item9"
     "itemg itemh itemj item9";
-    text-align: center;
-    padding: 10px;
+    text-align: center; 
+    max-width: 45vw;  
 }
 
 .item1 {
@@ -20,78 +19,110 @@
     text-align: end;
     background-color: grey;
     color: white;
+    border: 1px solid rgb(189, 189, 189);
 }
 
 .item2 {
     grid-area: item2;
     background-color: rgb(219, 235, 240);
+    border: 1px solid rgb(189, 189, 189);
 }
 
 .item3 {
     grid-area: item3;
     background-color: rgb(219, 235, 240);
+    border: 1px solid rgb(189, 189, 189);
 }
 
 .item4 {
     grid-area: item4;
     background-color: rgb(219, 235, 240);
+    border: 1px solid rgb(189, 189, 189);
 }
 
 .item5 {
     grid-area: item5;
     background-color: rgb(219, 235, 240);
+    border: 1px solid rgb(189, 189, 189);
 }
 
 .item6 {
     grid-area: item6;
+    border: 1px solid rgb(189, 189, 189);
+    background-color: whitesmoke;
 }
 
 .item7 {
     grid-area: item7;
+    border: 1px solid rgb(189, 189, 189);
+    background-color: whitesmoke;
 }
 
 .item8 {
     grid-area: item8;
+    border: 1px solid rgb(189, 189, 189);
+    background-color: whitesmoke;
 }
 
 .item9 {
     grid-area: item9;
     background-color: rgb(198, 105, 105);
-  
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
 }
 
 .itema {
     grid-area: itema;
+    border: 1px solid rgb(189, 189, 189);
+    background-color: whitesmoke;
 }
 
 .itemb {
     grid-area: itemb;
+    border: 1px solid rgb(189, 189, 189);
+    background-color: whitesmoke;
 }
 
 .itemc {
     grid-area: itemc;
+    border: 1px solid rgb(189, 189, 189);
+    background-color: whitesmoke;
 }
 
 .itemd {
     grid-area: itemd;
+    border: 1px solid rgb(189, 189, 189);
+    background-color: whitesmoke;
 }
 
 .iteme {
     grid-area: iteme;
+    border: 1px solid rgb(189, 189, 189);
+    background-color: whitesmoke;
 }
 
 .itemf {
     grid-area: itemf;
+    border: 1px solid rgb(189, 189, 189);
+    background-color: whitesmoke;
 }
 
 .itemg {
     grid-area: itemg;
+    border: 1px solid rgb(189, 189, 189);
+    background-color: whitesmoke;
 }
 
 .itemh {
     grid-area: itemh;
+    border: 1px solid rgb(189, 189, 189);
+    background-color: whitesmoke;
 }
 
 .itemj {
     grid-area: itemj;
+    border: 1px solid rgb(189, 189, 189);
+    background-color: whitesmoke;
 }
+
