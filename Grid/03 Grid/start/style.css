@@ -1,0 +1,97 @@
+.grid-container {
+    display: grid;
+    gap: 1rem;
+    font-size: 24px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+    grid-template-areas: 
+    "item1 item1 item1 item1"
+    "item2 item3 item4 item5"
+    "item6 item7 item8 item9"
+    "itema itemb itemc item9"
+    "itemd iteme itemf item9"
+    "itemg itemh itemj item9";
+    text-align: center;
+    padding: 10px;
+}
+
+.item1 {
+    grid-area: item1;
+    text-align: end;
+    background-color: grey;
+    color: white;
+}
+
+.item2 {
+    grid-area: item2;
+    background-color: rgb(219, 235, 240);
+}
+
+.item3 {
+    grid-area: item3;
+    background-color: rgb(219, 235, 240);
+}
+
+.item4 {
+    grid-area: item4;
+    background-color: rgb(219, 235, 240);
+}
+
+.item5 {
+    grid-area: item5;
+    background-color: rgb(219, 235, 240);
+}
+
+.item6 {
+    grid-area: item6;
+}
+
+.item7 {
+    grid-area: item7;
+}
+
+.item8 {
+    grid-area: item8;
+}
+
+.item9 {
+    grid-area: item9;
+    background-color: rgb(198, 105, 105);
+  
+}
+
+.itema {
+    grid-area: itema;
+}
+
+.itemb {
+    grid-area: itemb;
+}
+
+.itemc {
+    grid-area: itemc;
+}
+
+.itemd {
+    grid-area: itemd;
+}
+
+.iteme {
+    grid-area: iteme;
+}
+
+.itemf {
+    grid-area: itemf;
+}
+
+.itemg {
+    grid-area: itemg;
+}
+
+.itemh {
+    grid-area: itemh;
+}
+
+.itemj {
+    grid-area: itemj;
+}
