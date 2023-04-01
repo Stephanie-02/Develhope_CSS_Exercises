@@ -1,6 +1,6 @@
 #linking{
     background-color: rgb(0, 0, 59);
-    display: inline-block;
+    
 }
 
 .navigation{
@@ -35,6 +35,9 @@
     text-decoration: none;
     background-color: rgb(0, 0, 59);
     border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 2px;
 }
 
 .submitted{
@@ -42,5 +45,22 @@
      background-color: rgb(0, 0, 59);
      color: green;
      margin: 2px;
+     border-radius: 3px;
+     padding: 3px;
 }
 
+.submitted:hover {
+   background-color: green;
+   color: white;
+}
+
+.hamburger {
+   color:white;
+}
+
+@media screen and (min-width :768px){
+    hamburger{
+        display: none;
+    }
+    
+}
