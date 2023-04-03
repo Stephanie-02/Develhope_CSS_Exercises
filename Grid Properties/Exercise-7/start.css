@@ -6,8 +6,9 @@
     "yellow red blue"
     "yellow red blue"
     "orange orange blue";
-    width: 100vw;
-    grid-template-columns: 1fr 1fr 1fr;
+    width: fit-content;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 1fr 2fr;
 }
 
 #green {

@@ -55,12 +55,26 @@
 }
 
 .hamburger {
-   color:white;
+    width: 30px;
+    color: white;
+    display: none;
+    font-weight: 800;
 }
 
-@media screen and (min-width :768px){
-    hamburger{
+ @media screen and (max-width :768px){
+    .navigation{
+        color: white;
+        text-decoration: none;
+        font-size: larger;
+        padding: 2px;
+    }
+
+    .hamburger {
+        display: block;
+
+    }
+
+    .home, .linked, #dropdown, .disabled, #search, .submitted {
         display: none;
     }
-    
-}
+} 
