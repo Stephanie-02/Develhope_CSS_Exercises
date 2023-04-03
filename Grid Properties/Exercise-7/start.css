@@ -6,21 +6,22 @@
     "yellow red blue"
     "yellow red blue"
     "orange orange blue";
-    width: fit-content;
-    grid-template-rows: 1fr 2fr 1fr;
-    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 #green {
     grid-area: green;
+    grid-template-rows: 1;
 }
 
 #yellow {
     grid-area: yellow;
+    grid-template-rows: 2;
 }
 
 #red {
     grid-area: red;
+    grid-template-rows: 2;
 }
 
 #blue {
@@ -29,6 +30,7 @@
 
 #orange {
     grid-area: orange;
+    grid-template-rows: 1;
 }
 
 .yellowing {
